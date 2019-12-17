@@ -55,8 +55,6 @@ async function main () {
     return message.channel.send(embed).catch((error) => {
       console.error('Failed Embed:', error.message)
     })
-
-    // console.info(command, parameters)
   })
 
   // DEMO COMMANDS
