@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+
+  "plugins": [ "jsdoc", "json", "promise", "node", "optimize-regex", "security", "sonarjs", "standard", "unicorn" ],
+  "extends": [
+    "plugin:jsdoc/recommended",
+    "plugin:json/recommended",
+    "plugin:promise/recommended",
+    "plugin:node/recommended",
+    "plugin:security/recommended",
+    "plugin:sonarjs/recommended",
+    "standard",
+    "plugin:unicorn/recommended"
+  ],
+
+  "rules": {
+    "node/no-callback-literal": 2,
+    "node/no-unpublished-require": 0,
+
+    "promise/prefer-await-to-then": 1,
+    "promise/prefer-await-to-callbacks": 1
+  }
+}

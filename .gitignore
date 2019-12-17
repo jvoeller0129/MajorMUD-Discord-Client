@@ -1,0 +1,19 @@
+# IDE Artifacts (Default Ignore)
+/.idea/
+/.vscode/
+
+# NP< Artifacts (Default Ignore)
+/node_modules/
+
+# Local Artifacts (Default Ignore)
+*.db
+**/*.db
+
+# Possible Secrets (Default Ignore)
+**/*.pem
+**/*.cert
+**/id_rsa
+.env
+
+# Additional Ignore (User Ignore)
+config.json
