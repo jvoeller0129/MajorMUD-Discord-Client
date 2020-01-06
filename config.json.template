@@ -4,5 +4,7 @@
   "username": "",
   "password": "",
   "token": ". . .",
-  "prefix": "//"
+  "prefix": "//",
+  "LoginPrompt":"\"new\":",
+  "PasswordPrompt":"password:",
 }
