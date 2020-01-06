@@ -49,7 +49,7 @@ async function main () {
       r = r.split('')
       r.shift()
       r.pop()
-      embed.addField('Telepathic Response', r.join(''))
+      embed.addField('Query Response', r.join(''))
     }
 
     console.info(`Command Executed: /${target} @${clean} ${parameters.join(' ')}`)
